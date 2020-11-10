@@ -1,7 +1,7 @@
 package rest
 
 import (
-	"github.com/gin-gonic/gin"
+	"github.com/fixbanking/gin"
 )
 
 // All of the methods are the same type as HandlerFunc

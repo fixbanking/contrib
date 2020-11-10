@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"runtime/debug"
 
+	"github.com/fixbanking/gin"
 	"github.com/getsentry/raven-go"
-	"github.com/gin-gonic/gin"
 )
 
 func Recovery(client *raven.Client, onlyCrashes bool) gin.HandlerFunc {

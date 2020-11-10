@@ -12,8 +12,8 @@ package main
 import (
     "html/template"
 
-    "github.com/gin-gonic/gin"
-    "github.com/gin-gonic/contrib/renders/multitemplate"
+    "github.com/fixbanking/gin"
+    "github.com/fixbanking/contrib/renders/multitemplate"
 )
 
 func main() {
@@ -47,8 +47,8 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/gin-gonic/contrib/renders/multitemplate"
-	"github.com/gin-gonic/gin"
+	"github.com/fixbanking/contrib/renders/multitemplate"
+	"github.com/fixbanking/gin"
 )
 
 func main() {

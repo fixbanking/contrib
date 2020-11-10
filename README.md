@@ -1,8 +1,8 @@
-# gin-gonic/contrib 
+# fixbanking/contrib 
 
-[![Build Status](https://travis-ci.org/gin-gonic/contrib.svg)](https://travis-ci.org/gin-gonic/contrib)
+[![Build Status](https://travis-ci.org/fixbanking/contrib.svg)](https://travis-ci.org/fixbanking/contrib)
 
-Here you'll find middleware ready to  use with [Gin Framework](https://github.com/gin-gonic/gin). Submit your pull request, either with the package in a folder, or by adding a link to this `README.md`.
+Here you'll find middleware ready to  use with [Gin Framework](https://github.com/fixbanking/gin). Submit your pull request, either with the package in a folder, or by adding a link to this `README.md`.
 
 If adding a package directly, don't forget to create a `README.md` inside with author name.
 If adding a link to your own repository, please follow this example:

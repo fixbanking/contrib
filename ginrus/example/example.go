@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/gin-gonic/contrib/ginrus"
-	"github.com/gin-gonic/gin"
+	"github.com/fixbanking/contrib/ginrus"
+	"github.com/fixbanking/gin"
 	"github.com/sirupsen/logrus"
 )
 

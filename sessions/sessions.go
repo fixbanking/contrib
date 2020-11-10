@@ -4,13 +4,13 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gin-gonic/gin"
+	"github.com/fixbanking/gin"
 	"github.com/gorilla/context"
 	"github.com/gorilla/sessions"
 )
 
 const (
-	DefaultKey  = "github.com/gin-gonic/contrib/sessions"
+	DefaultKey  = "github.com/fixbanking/contrib/sessions"
 	errorFormat = "[sessions] ERROR! %s\n"
 )
 

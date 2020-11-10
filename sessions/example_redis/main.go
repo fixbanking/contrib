@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gin-gonic/contrib/sessions"
-	"github.com/gin-gonic/gin"
+	"github.com/fixbanking/contrib/sessions"
+	"github.com/fixbanking/gin"
 )
 
 func main() {

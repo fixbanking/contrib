@@ -14,8 +14,8 @@ Gin middleware for session management with multi-backend support (currently cook
 package main
 
 import (
-  "github.com/gin-gonic/contrib/sessions"
-  "github.com/gin-gonic/gin"
+  "github.com/fixbanking/contrib/sessions"
+  "github.com/fixbanking/gin"
 )
 
 func main() {
@@ -47,8 +47,8 @@ func main() {
 package main
 
 import (
-  "github.com/gin-gonic/contrib/sessions"
-  "github.com/gin-gonic/gin"
+  "github.com/fixbanking/contrib/sessions"
+  "github.com/fixbanking/gin"
 )
 
 func main() {

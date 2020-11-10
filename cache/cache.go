@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"crypto/sha1"
 	"errors"
-	"github.com/gin-gonic/gin"
 	"io"
 	"net/http"
 	"net/url"
 	"time"
+
+	"github.com/fixbanking/gin"
 )
 
 const (

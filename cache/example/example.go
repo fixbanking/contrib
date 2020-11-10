@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/gin-gonic/contrib/cache"
-	"github.com/gin-gonic/gin"
 	"time"
+
+	"github.com/fixbanking/contrib/cache"
+	"github.com/fixbanking/gin"
 )
 
 func main() {

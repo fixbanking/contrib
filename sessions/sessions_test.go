@@ -1,11 +1,12 @@
 package sessions
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/fixbanking/gin"
 )
 
 type storeFactory func(*testing.T) Store

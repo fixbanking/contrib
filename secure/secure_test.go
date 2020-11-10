@@ -1,11 +1,12 @@
 package secure
 
 import (
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"net/http/httptest"
 	"reflect"
 	"testing"
+
+	"github.com/fixbanking/gin"
 )
 
 const (
@@ -23,7 +24,7 @@ func newServer(options Options) *gin.Engine {
 
 func TestNoConfig(t *testing.T) {
 	s := newServer(Options{
-	// Intentionally left blank.
+		// Intentionally left blank.
 	})
 
 	res := httptest.NewRecorder()

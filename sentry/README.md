@@ -12,8 +12,8 @@ package main
 
 import (
   "github.com/getsentry/raven-go"
-  "github.com/gin-gonic/contrib/sentry"
-  "github.com/gin-gonic/gin"
+  "github.com/fixbanking/contrib/sentry"
+  "github.com/fixbanking/gin"
 )
 
 func init() {

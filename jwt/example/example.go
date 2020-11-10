@@ -4,8 +4,8 @@ import (
 	"time"
 
 	jwt_lib "github.com/dgrijalva/jwt-go"
-	"github.com/gin-gonic/contrib/jwt"
-	"github.com/gin-gonic/gin"
+	"github.com/fixbanking/contrib/jwt"
+	"github.com/fixbanking/gin"
 )
 
 var (

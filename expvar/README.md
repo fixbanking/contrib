@@ -7,8 +7,8 @@
 ```go
 package main
 
-import "github.com/gin-gonic/gin"
-import "github.com/gin-gonic/contrib/expvar"
+import "github.com/fixbanking/gin"
+import "github.com/fixbanking/contrib/expvar"
 
 func main() {
 	router := gin.Default()
